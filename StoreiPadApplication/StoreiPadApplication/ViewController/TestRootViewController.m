@@ -6,13 +6,13 @@
 //  Copyright © 2016 HongDi Huang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TestRootViewController.h"
 
-@interface ViewController ()
+@interface TestRootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TestRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
