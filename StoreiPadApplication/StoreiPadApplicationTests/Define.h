@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define BASIC_PROTOCOL @"HHD_test_tcp"
+#define BASIC_PROTOCOL @"HHD._tcp."
 
 #ifndef Define_h
 
