@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TestServer.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    TestServer *server = [TestServer server];
+    [server start];
+    
     return YES;
 }
 
